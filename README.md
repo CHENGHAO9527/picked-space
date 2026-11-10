@@ -64,6 +64,8 @@ npm test
 node scripts/package-template.mjs
 ```
 
+打包文件保存在 `.local/releases/`，不进入Git历史。
+
 公开副本不含个人库，因此个人快照相关测试会按设计跳过。GitHub Actions在Linux和Windows运行通用测试。
 
 | 文件 | 职责 |

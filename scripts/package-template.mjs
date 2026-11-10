@@ -11,7 +11,9 @@ async function walk(dir){for(const entry of await readdir(path.join(root,dir),{w
 }}
 for(const d of ['dist','tests','scripts','docs','.github'])await walk(d);
 if(files.some(x=>x.includes('private/')||x==='dist/data/library.json'||x==='dist/data/policy.json'))throw new Error('检测到私有文件');
-const out=path.resolve(root,'..','favorite-space-template-v0.7.0.zip');
+const version=JSON.parse(await readFile(path.join(root,'package.json'),'utf8')).version;
+const releaseDir=path.join(root,'.local','releases');await mkdir(releaseDir,{recursive:true});
+const out=path.join(releaseDir,`picked-space-v${version}.zip`);
 execFileSync('tar',['-a','-c','-f',out,...files],{cwd:root,stdio:'pipe'});
 const listed=execFileSync('tar',['-t','-f',out],{encoding:'utf8'}).trim().split(/\r?\n/);
 if(listed.some(x=>x.includes('private/')||x.endsWith('/library.json')||x.endsWith('/policy.json')))throw new Error('模板包含私有数据，停止交付');
