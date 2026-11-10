@@ -1,0 +1,12 @@
+dist/data/library.json
+dist/private/
+private/
+.local/
+node_modules/
+*.log
+.DS_Store
+dist/data/policy.json
+
+# Personal execution notes; publish TEMPLATE_QA.md instead.
+QA.md
+STATUS.md

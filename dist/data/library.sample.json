@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "title": "我的频道",
+  "owner": "我",
+  "videos": [
+    {
+      "platform": "bilibili",
+      "id": "BV1njnp6pEbF",
+      "url": "https://www.bilibili.com/video/BV1njnp6pEbF",
+      "key": "bilibili:BV1njnp6pEbF",
+      "title": "S16应援曲《以风之名》",
+      "author": "蔚蓝边际",
+      "creatorId": "",
+      "creatorKey": "up:蔚蓝边际",
+      "authorUrl": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/06e53f0a74b23ff0b508fa1ceafa150b3a1c8f76.jpg@672w_378h_1c.avif",
+      "duration": 216,
+      "visibility": "public",
+      "collections": [
+        "公开收藏示例"
+      ],
+      "sources": [
+        "favorites"
+      ],
+      "tags": [],
+      "description": "",
+      "publishedAt": "",
+      "collectedAt": "",
+      "views": null
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1QGaZ6cEQZ",
+      "url": "https://www.bilibili.com/video/BV1QGaZ6cEQZ",
+      "key": "bilibili:BV1QGaZ6cEQZ",
+      "title": "中期选举与AI泡沫",
+      "author": "pusaman",
+      "creatorId": "",
+      "creatorKey": "up:pusaman",
+      "authorUrl": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/e57ceddc8feeb70e64b1dc002f548a86c838309a.jpg@672w_378h_1c.avif",
+      "duration": 4567,
+      "visibility": "public",
+      "collections": [
+        "公开收藏示例"
+      ],
+      "sources": [
+        "favorites"
+      ],
+      "tags": [],
+      "description": "",
+      "publishedAt": "",
+      "collectedAt": "",
+      "views": null
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1HWMx6wEum",
+      "url": "https://www.bilibili.com/video/BV1HWMx6wEum",
+      "key": "bilibili:BV1HWMx6wEum",
+      "title": "【AI梵决】写好提示词的三大原则",
+      "author": "名字就叫30",
+      "creatorId": "",
+      "creatorKey": "up:名字就叫30",
+      "authorUrl": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/cd0d58dd114bf4b48d36749f2c773095a1254873.jpg@672w_378h_1c.avif",
+      "duration": 631,
+      "visibility": "public",
+      "collections": [
+        "公开收藏示例"
+      ],
+      "sources": [
+        "favorites"
+      ],
+      "tags": [],
+      "description": "",
+      "publishedAt": "",
+      "collectedAt": "",
+      "views": null
+    }
+  ]
+}

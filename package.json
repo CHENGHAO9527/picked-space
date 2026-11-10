@@ -1,0 +1,16 @@
+{
+  "name": "picked-space",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "description": "关注博主与公开收藏的个人视频频道",
+  "scripts": {
+    "dev": "node --use-env-proxy server.mjs",
+    "start": "node --use-env-proxy server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.5"
+  }
+}
