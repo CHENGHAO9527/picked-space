@@ -1,0 +1,11 @@
+export type Source = 'follow'|'fav'|'hot'|'custom';
+export type Tier = 'must'|'often'|'sometimes';
+export type Video = {bvid:string;title:string;cover:string;duration:number;upName:string;upMid:string;pubdate:string;source:Source;sources:Source[];favAt?:string;folder?:string;reason?:string;category?:string;note?:string};
+export type Creator = {id:string;name:string;lastUploadAt?:string;tier?:Tier};
+export type Note = {id:string;bvid:string;time:number;text:string;createdAt:string};
+export type Reel = {id:string;title:string;intro:string;bvids:string[]};
+export type Seen = {bvid:string;at:string;category?:string;upName:string};
+export type State = {budgetMinutes:number;tiers:Record<string,Tier>;watched:Record<string,Seen>;progress:Record<string,number>;notes:Note[];reels:Reel[];plan:string[];released:string[];dusts:{bvid:string;at:string}[];blocked:string[];theme:'dark'|'light'};
+export const emptyState = ():State=>({budgetMinutes:160,tiers:{},watched:{},progress:{},notes:[],reels:[],plan:[],released:[],dusts:[],blocked:[],theme:'dark'});
+export const sourceNames:Record<Source,string>={follow:'关注之藏',fav:'收藏之藏',hot:'时下之藏',custom:'自定义藏'};
+export const tierNames:Record<Tier,string>={must:'必看',often:'常看',sometimes:'偶看'};

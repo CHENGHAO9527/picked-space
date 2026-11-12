@@ -1,3 +1,9 @@
+# 新版贡献入口
+
+当前应用位于shicang-next/，先读该目录AGENTS.md与README.md。根目录npm test同时检查旧兼容模块和新版；npm run typecheck/npm run build转发新版。以下既有说明的dist模块只指旧实现。不要提交自己的账号、快照、笔记或环境文件。
+
+---
+
 # Contributing
 
 请先阅读AGENTS.md。欢迎提交可复现的问题和聚焦的改进。

@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "title": "拾藏 · 公开演示",
+  "owner": "演示",
+  "followedCreators": [],
+  "provenance": {
+    "method": "公开视频排行榜演示",
+    "scope": "只展示公开榜单元数据，不代表任何人的关注或收藏",
+    "complete": false
+  },
+  "videos": [
+    {
+      "title": "选举大败特朗普和马斯克这下惨了",
+      "url": "https://www.bilibili.com/video/BV1WEWs66EBP",
+      "author": "燕三嘤嘤嘤",
+      "creatorId": "430426421",
+      "cover": "https://i2.hdslb.com/bfs/archive/c0be5b731d4162fd8652a221d41a623606d8ae79.jpg",
+      "duration": 1290,
+      "publishedAt": "2026-11-10",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 20,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "纯黑《影之刃零》逆天者全程无伤一镜到底攻略解说 第二期",
+      "url": "https://www.bilibili.com/video/BV1Rz4n6nEjp",
+      "author": "-纯黑-",
+      "creatorId": "585267",
+      "cover": "https://i2.hdslb.com/bfs/archive/b7ac5c9c3dcd22bc3f042eb2cd1892d96a7e9438.jpg",
+      "duration": 2557,
+      "publishedAt": "2026-11-07",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 16,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "S赛怀旧金曲《BLG带带我》",
+      "url": "https://www.bilibili.com/video/BV1mK4E6NE82",
+      "author": "九夜听风",
+      "creatorId": "593987248",
+      "cover": "https://i0.hdslb.com/bfs/archive/1ebb201cd6656eda9ffe2f7786e40f943fadea32.jpg",
+      "duration": 121,
+      "publishedAt": "2026-11-07",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 26,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "第一视角参与野兽先生的拍摄...",
+      "url": "https://www.bilibili.com/video/BV1wq4B62EWa",
+      "author": "飓多多StormCrew",
+      "creatorId": "1780480185",
+      "cover": "https://i1.hdslb.com/bfs/archive/59b1fa56149b8f32ddea5a49ba0eda590c304198.jpg",
+      "duration": 657,
+      "publishedAt": "2026-11-07",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 34,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」",
+      "url": "https://www.bilibili.com/video/BV1tS4n6CEoJ",
+      "author": "崩坏星穹铁道",
+      "creatorId": "1340190821",
+      "cover": "https://i1.hdslb.com/bfs/archive/d4305c122263017f3eb24fdcf34b352d08af4a36.jpg",
+      "duration": 759,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 1,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "【2026全球总决赛】11月9日 BLG vs T1",
+      "url": "https://www.bilibili.com/video/BV1TgWp6MEHJ",
+      "author": "哔哩哔哩英雄联盟赛事",
+      "creatorId": "50329118",
+      "cover": "https://i0.hdslb.com/bfs/archive/342a910266c83a5ebaa76e9a04f6c684f672b5cb.jpg",
+      "duration": 15510,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 2,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "近十几年的梗都在这里了",
+      "url": "https://www.bilibili.com/video/BV1mv4Y6rESW",
+      "author": "怠惰的一休",
+      "creatorId": "27501480",
+      "cover": "https://i1.hdslb.com/bfs/archive/7a8449a206881e89b3dac64b49f677e25d6160e0.jpg",
+      "duration": 66,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 3,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "火柴人 VS 动画师 第十四集 黑暗时代（The Dark Age）",
+      "url": "https://www.bilibili.com/video/BV1Z24J6dEBk",
+      "author": "火柴人AlanBecker",
+      "creatorId": "519253600",
+      "cover": "https://i0.hdslb.com/bfs/archive/c510a20389cb9da2aa53db5a95ac7d2152ddaeb5.jpg",
+      "duration": 1130,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 4,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "人类饲养指南",
+      "url": "https://www.bilibili.com/video/BV1Cn4n6YE29",
+      "author": "抽象生活先生",
+      "creatorId": "289576778",
+      "cover": "https://i1.hdslb.com/bfs/archive/93f2a017770685b35cabebd9bd1441a315ed0865.jpg",
+      "duration": 138,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 5,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "《绝区零》未明通讯丨知更鸟&卡芙卡",
+      "url": "https://www.bilibili.com/video/BV1oU4762EHR",
+      "author": "绝区零",
+      "creatorId": "1636034895",
+      "cover": "https://i0.hdslb.com/bfs/archive/1e21c3aa1f635dc0e1eb4245b892f3cc942e5076.jpg",
+      "duration": 80,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 6,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "最强的战绩，铭刻于决斗场！",
+      "url": "https://www.bilibili.com/video/BV1fn4z6LEzY",
+      "author": "无我漂佩MY",
+      "creatorId": "194053532",
+      "cover": "https://i0.hdslb.com/bfs/archive/896520044c9c110074526f82e78080fda91ea4da.jpg",
+      "duration": 230,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 7,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "【神人短剧】🔥最新力作🔥农村大席之抽象盛宴，联动mj宇宙【AI全民制作人】",
+      "url": "https://www.bilibili.com/video/BV1gcWn6iE9C",
+      "author": "闲夜空茫",
+      "creatorId": "36024653",
+      "cover": "https://i2.hdslb.com/bfs/archive/301b0607ffa9f874e54dcd0944e7539e2eef3932.jpg",
+      "duration": 1049,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 8,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "“这是给孩子的，不是给你的”",
+      "url": "https://www.bilibili.com/video/BV1Wx4i6LEmf",
+      "author": "上邪aa",
+      "creatorId": "21572323",
+      "cover": "https://i2.hdslb.com/bfs/archive/a7e8aa0f0dc89a96e19e06fce845cfe3d70d51ef.jpg",
+      "duration": 2933,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 9,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "农村大片! 大战外星人! 好莱坞都不敢这么拍",
+      "url": "https://www.bilibili.com/video/BV11S4z6xEpc",
+      "author": "神奇的老皮",
+      "creatorId": "3380239",
+      "cover": "https://i0.hdslb.com/bfs/archive/f04aa692f420f825c1cc94975433375b05511bf1.jpg",
+      "duration": 312,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 10,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    },
+    {
+      "title": "10月26号生日啦 生日时拍的 可能是我比较懒吧 现在才发#cos不还原致谦一切 #自设cos #日常 #cos",
+      "url": "https://www.bilibili.com/video/BV198456AE5S",
+      "author": "原来紫梦也玩原神",
+      "creatorId": "3632317153151062",
+      "cover": "https://i1.hdslb.com/bfs/archive/7cfedbf016bf3ac91f695385e310b46478c7b05a.jpg",
+      "duration": 140,
+      "publishedAt": "",
+      "ranking": {
+        "name": "B站全站排行榜",
+        "rank": 11,
+        "capturedAt": "2026-11-10"
+      },
+      "visibility": "public",
+      "sources": [
+        "ranking"
+      ],
+      "collections": [],
+      "tags": []
+    }
+  ]
+}

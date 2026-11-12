@@ -1,0 +1,34 @@
+{
+  "name": "shicang",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --use-env-proxy node_modules/next/dist/bin/next dev --hostname 127.0.0.1 --port 4180",
+    "build": "next build",
+    "start": "node --use-env-proxy node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 4180",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "import:legacy": "node --import tsx scripts/import-legacy.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "drizzle-orm": "1.0.0-rc.5",
+    "html-to-image": "1.11.13",
+    "lunar-javascript": "1.7.8",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwindcss": "4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=24.5"
+  }
+}

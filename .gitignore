@@ -10,3 +10,13 @@ dist/data/policy.json
 # Personal execution notes; publish TEMPLATE_QA.md instead.
 QA.md
 STATUS.md
+
+# New Next.js app and credentials, at every depth.
+.env*
+!.env.example
+.next/
+*.sqlite
+*.sqlite-*
+*.db
+*.tsbuildinfo
+verification/
