@@ -1,4 +1,5 @@
 @import "tailwindcss";
+.site-credit{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.site-credit a{color:var(--paper2);letter-spacing:1px}.site-credit a:hover{color:var(--gold)}@media(max-width:680px){.site-credit{align-items:flex-start;flex-direction:column;gap:6px}}
 @theme inline {--color-ink:var(--ink);--color-paper:var(--paper);--color-cinnabar:var(--cinnabar);--color-gold:var(--gold);--font-serif:var(--serif);--font-sans:var(--sans);}
 :root{--ink:#0d0d0f;--ink2:#151518;--ink3:#1d1d21;--line:#2a2a2f;--paper:#ece6da;--paper2:#a9a297;--mute:#6c675f;--cinnabar:#c8442f;--gold:#b89a62;--blue:#5a7684;--serif:"Noto Serif SC","Source Han Serif SC","Songti SC","SimSun",serif;--sans:"Inter","PingFang SC","Microsoft YaHei",sans-serif;color-scheme:dark;}
 :root[data-theme=light]{--ink:#f2ede3;--ink2:#eae3d6;--ink3:#e2dacd;--line:#d5cbbb;--paper:#25231f;--paper2:#645e54;--mute:#777065;--gold:#8b6d39;color-scheme:light;}

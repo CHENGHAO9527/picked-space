@@ -2,6 +2,7 @@ import {readdir,lstat,mkdir,readFile} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {execFileSync} from 'node:child_process';
+import {assertPublicPath} from './public-scope.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const base=['package.json','server.mjs','playback.mjs','preview.mjs','CONTRIBUTING.md','CHANGELOG.md','FORK_GUIDE.md','TEMPLATE_QA.md','README.md','AI_IMPORT.md','AGENTS.md','LICENSE','.gitignore','启动拾藏.cmd'];
 const files=[...base];
@@ -12,6 +13,7 @@ async function walk(dir){for(const entry of await readdir(path.join(root,dir),{w
 for(const d of ['dist','tests','scripts','docs','.github','shicang-next'])await walk(d);
 if(files.some(x=>x.includes('private/')||x==='dist/data/library.json'||x==='dist/data/policy.json'))throw new Error('检测到私有文件');
 const version=JSON.parse(await readFile(path.join(root,'package.json'),'utf8')).version;
+for(const file of files)assertPublicPath(file);
 const releaseDir=path.join(root,'.local','releases');await mkdir(releaseDir,{recursive:true});
 const out=path.join(releaseDir,`picked-space-v${version}.zip`);
 execFileSync('tar',['-a','-c','-f',out,...files],{cwd:root,stdio:'pipe'});

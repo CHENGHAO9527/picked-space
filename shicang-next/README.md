@@ -1,6 +1,6 @@
 # 拾藏新版 · 私人放映厅
 
-本目录是视频展示的Next.js新版，Node.js 24.5+、Next App Router、TypeScript、Tailwind、SQLite/Drizzle。版本1.0.0。默认演示馆不需要账号。
+本目录是视频展示的Next.js新版，Node.js 24.5+、Next App Router、TypeScript、Tailwind、SQLite/Drizzle。版本1.0.1。默认演示馆不需要账号。
 
 ## 本目录启动
 
@@ -56,3 +56,7 @@ npm run build
 ```
 
 完整公开边界与已测项见[仓库验证说明](../TEMPLATE_QA.md)。没有宣称Cookie同步全路径、整单自然播完、真实拖拽全流程或Lighthouse分数通过。
+
+## 作者
+
+[程御川](../README.md#关于作者)：外企数据工程师、三岁娃的爸爸，记录AI怎样改变工作与生活。[抖音搜索「程御川Yuchuan」](https://www.douyin.com/search/%E7%A8%8B%E5%BE%A1%E5%B7%9DYuchuan)。

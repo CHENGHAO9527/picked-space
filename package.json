@@ -1,6 +1,6 @@
 {
   "name": "picked-space",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "按自己的注意力组织B站内容的本地私人放映厅",
@@ -9,10 +9,11 @@
     "build": "npm --prefix shicang-next run build",
     "start": "npm --prefix shicang-next run start",
     "typecheck": "npm --prefix shicang-next run typecheck",
-    "test": "npm run test:legacy && npm --prefix shicang-next test",
+    "test": "npm run check:public && npm run test:legacy && npm --prefix shicang-next test",
     "test:legacy": "node --test tests/*.test.mjs",
     "start:legacy": "node --use-env-proxy server.mjs",
-    "package:template": "node scripts/package-template.mjs"
+    "package:template": "node scripts/package-template.mjs",
+    "check:public": "node scripts/check-public-scope.mjs"
   },
   "license": "MIT",
   "engines": {
